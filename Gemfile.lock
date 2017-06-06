@@ -1,3 +1,8 @@
+PATH
+  remote: .
+  specs:
+    airspace-jekyll (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -17,45 +22,35 @@ GEM
       pathutil (~> 0.9)
       rouge (~> 1.7)
       safe_yaml (~> 1.0)
-    jekyll-feed (0.9.2)
-      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-watch (1.5.0)
       listen (~> 3.0, < 3.1)
     kramdown (1.13.2)
     liquid (3.0.6)
-    listen (3.0.6)
-      rb-fsevent (>= 0.9.3)
-      rb-inotify (>= 0.9.7)
+    listen (3.0.8)
+      rb-fsevent (~> 0.9, >= 0.9.4)
+      rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (2.1.1)
-      jekyll (~> 3.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
+    rake (10.4.2)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.24)
-    thread_safe (0.3.6)
-    tzinfo (1.2.3)
-      thread_safe (~> 0.1)
-    tzinfo-data (1.2017.2)
-      tzinfo (>= 1.0.0)
 
 PLATFORMS
   x64-mingw32
 
 DEPENDENCIES
-  jekyll-feed (~> 0.6)
-  minima (~> 2.0)
-  tzinfo-data
-
-RUBY VERSION
-   ruby 2.2.4p230
+  airspace-jekyll!
+  bundler (~> 1.12)
+  jekyll (~> 3.2)
+  rake (~> 10.0)
 
 BUNDLED WITH
    1.15.1
