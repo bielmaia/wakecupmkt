@@ -34,4 +34,7 @@ google_analytics: "UA-100584794-1"
 # Category descriptions (for archive pages)
 description: Consultoria de marketing digital e criação de sites.
 
-
+# Sass
+sass: 
+    sass_dir: _sass
+    style: compressed
