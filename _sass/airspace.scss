@@ -1,4 +1,12 @@
-/* Geral */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700);
+@import url(http://fonts.googleapis.com/css?family=Volkhov:400italic);
+/* var text-decoration */
+/* Common CSS */
+body{
+    font-family: 'Open Sans', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Roboto', sans-serif;
 }
@@ -25,8 +33,9 @@ ul {
 }
 a {
     text-decoration: none !important;
-    &:active {text-decoration: none !important;}
-    &:focus {text-decoration: none !important;}
+    &:active, &:focus, &:active {
+        text-decoration: none !important;
+    }
 }
 .section-title {
     margin-bottom: 70px;
@@ -45,6 +54,7 @@ a {
 /* Header */
 @import 'header';
 
+/* Index Start */
 /* Slider Start */
 #slider {
     background: url("../img/slider-bg.jpg") no-repeat;
@@ -259,7 +269,7 @@ a {
         padding: 24px;
         margin: 0 auto;
         img {
-            padding-bottom: 3px;
+            padding-bottom: 38px;
         }
         p {
             line-height: 28px;
@@ -292,17 +302,17 @@ a {
                     height: 10px;
                     margin-right: 15px;
                     width: 10px;
-                    &.active {
-                        background: #5c5c5c;
-                        font-size: 30px;
-                        display: inline-block;
-                        border: 0px;
                     }
+                div.active {
+                    background: #5c5c5c;
+                    font-size: 30px;
+                    display: inline-block;
+                    border: 0px;
+                }
                 }
             }
         }
     }
-}
 /* Features Start - Clients */
 #clients-logo-section {
     padding: {
